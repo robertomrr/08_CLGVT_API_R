@@ -1,3 +1,12 @@
+## Objetivo -> Estudar Eloquent: API Resources
+- [Laravel, Eloquent: API Resources](https://laravel.com/docs/11.x/eloquent-resources#main-content).
+## Introdução
+Ao construir uma API, podemos precisar de uma camada de transformação que fique entre seus modelos Eloquent e as respostas JSON que são realmente retornadas aos usuários do seu aplicativo. 
+Por exemplo, você pode desejar exibir certos atributos para um subconjunto de usuários e não para outros, ou pode desejar sempre incluir certos relacionamentos na representação JSON dos seus modelos. 
+As classes de recursos do Eloquent permitem que você transforme expressiva e facilmente seus modelos e coleções de modelos em JSON.
+Claro, você sempre pode converter modelos ou coleções do Eloquent para JSON usando seus toJsonmétodos; no entanto, os recursos do Eloquent fornecem controle mais granular e robusto sobre a serialização JSON dos seus modelos e seus relacionamentos.
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
